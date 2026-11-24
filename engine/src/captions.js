@@ -18,7 +18,7 @@ export function drawCaption(g, groups, t, W, H, { font = '"Segoe UI Black", "Ari
   if (!c) return;
   const text = c.text.replace(/^"|"$/g, '').replace(/"/g, '');
   const age = t - c.start, pop = age < .07 ? 1.06 - age / .07 * .06 : 1;
-  const s = size * W / 1080 * pop;
+  const s = size * Math.min(W, H) / 1080 * pop;
   g.save();
   g.font = `900 ${s}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
   g.lineJoin = 'round'; g.miterLimit = 2;

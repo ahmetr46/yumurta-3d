@@ -1,0 +1,2345 @@
+{
+ "words": [
+  {
+   "word": "Imagine",
+   "start": 0.53,
+   "end": 1.072
+  },
+  {
+   "word": "creating",
+   "start": 1.072,
+   "end": 1.691
+  },
+  {
+   "word": "a",
+   "start": 1.691,
+   "end": 1.846
+  },
+  {
+   "word": "video",
+   "start": 1.846,
+   "end": 2.31
+  },
+  {
+   "word": "that",
+   "start": 2.31,
+   "end": 2.542
+  },
+  {
+   "word": "becomes",
+   "start": 2.542,
+   "end": 3.006
+  },
+  {
+   "word": "more",
+   "start": 3.006,
+   "end": 3.238
+  },
+  {
+   "word": "popular",
+   "start": 3.238,
+   "end": 3.78
+  },
+  {
+   "word": "than",
+   "start": 3.78,
+   "end": 4.012
+  },
+  {
+   "word": "the",
+   "start": 4.012,
+   "end": 4.167
+  },
+  {
+   "word": "biggest",
+   "start": 4.167,
+   "end": 4.631
+  },
+  {
+   "word": "Hollywood",
+   "start": 4.631,
+   "end": 5.173
+  },
+  {
+   "word": "movies,",
+   "start": 5.173,
+   "end": 5.56
+  },
+  {
+   "word": "the",
+   "start": 6.03,
+   "end": 6.174
+  },
+  {
+   "word": "most",
+   "start": 6.174,
+   "end": 6.533
+  },
+  {
+   "word": "famous",
+   "start": 6.533,
+   "end": 6.965
+  },
+  {
+   "word": "music",
+   "start": 6.965,
+   "end": 7.397
+  },
+  {
+   "word": "videos,",
+   "start": 7.397,
+   "end": 7.9
+  },
+  {
+   "word": "and",
+   "start": 8.28,
+   "end": 8.483
+  },
+  {
+   "word": "almost",
+   "start": 8.483,
+   "end": 8.957
+  },
+  {
+   "word": "everything",
+   "start": 8.957,
+   "end": 9.431
+  },
+  {
+   "word": "ever",
+   "start": 9.431,
+   "end": 9.634
+  },
+  {
+   "word": "uploaded",
+   "start": 9.634,
+   "end": 10.175
+  },
+  {
+   "word": "to",
+   "start": 10.175,
+   "end": 10.311
+  },
+  {
+   "word": "the",
+   "start": 10.311,
+   "end": 10.446
+  },
+  {
+   "word": "internet.",
+   "start": 10.446,
+   "end": 10.92
+  },
+  {
+   "word": "A",
+   "start": 11.83,
+   "end": 12.001
+  },
+  {
+   "word": "video",
+   "start": 12.001,
+   "end": 12.512
+  },
+  {
+   "word": "watched",
+   "start": 12.512,
+   "end": 12.938
+  },
+  {
+   "word": "more",
+   "start": 12.938,
+   "end": 13.194
+  },
+  {
+   "word": "than",
+   "start": 13.194,
+   "end": 13.45
+  },
+  {
+   "word": "seventeen",
+   "start": 13.45,
+   "end": 14.132
+  },
+  {
+   "word": "billion",
+   "start": 14.132,
+   "end": 14.644
+  },
+  {
+   "word": "times.",
+   "start": 14.644,
+   "end": 15.07
+  },
+  {
+   "word": "Not",
+   "start": 15.98,
+   "end": 16.267
+  },
+  {
+   "word": "a",
+   "start": 16.267,
+   "end": 16.458
+  },
+  {
+   "word": "blockbuster",
+   "start": 16.458,
+   "end": 17.318
+  },
+  {
+   "word": "movie.",
+   "start": 17.318,
+   "end": 17.7
+  },
+  {
+   "word": "Not",
+   "start": 18.23,
+   "end": 18.511
+  },
+  {
+   "word": "a",
+   "start": 18.511,
+   "end": 18.698
+  },
+  {
+   "word": "world-famous",
+   "start": 18.698,
+   "end": 19.541
+  },
+  {
+   "word": "superstar.",
+   "start": 19.541,
+   "end": 20.29
+  },
+  {
+   "word": "Not",
+   "start": 20.82,
+   "end": 21.058
+  },
+  {
+   "word": "an",
+   "start": 21.058,
+   "end": 21.216
+  },
+  {
+   "word": "expensive",
+   "start": 21.216,
+   "end": 21.928
+  },
+  {
+   "word": "production.",
+   "start": 21.928,
+   "end": 22.64
+  },
+  {
+   "word": "Just",
+   "start": 23.55,
+   "end": 23.948
+  },
+  {
+   "word": "a",
+   "start": 23.948,
+   "end": 24.107
+  },
+  {
+   "word": "simple",
+   "start": 24.107,
+   "end": 24.585
+  },
+  {
+   "word": "children's",
+   "start": 24.585,
+   "end": 25.301
+  },
+  {
+   "word": "song.",
+   "start": 25.301,
+   "end": 25.54
+  },
+  {
+   "word": "Its",
+   "start": 26.45,
+   "end": 26.764
+  },
+  {
+   "word": "name",
+   "start": 26.764,
+   "end": 27.181
+  },
+  {
+   "word": "is",
+   "start": 27.181,
+   "end": 27.39
+  },
+  {
+   "word": "Baby",
+   "start": 27.39,
+   "end": 27.912
+  },
+  {
+   "word": "Shark.",
+   "start": 27.912,
+   "end": 28.33
+  },
+  {
+   "word": "And",
+   "start": 29.24,
+   "end": 29.472
+  },
+  {
+   "word": "its",
+   "start": 29.472,
+   "end": 29.703
+  },
+  {
+   "word": "success",
+   "start": 29.703,
+   "end": 30.166
+  },
+  {
+   "word": "reveals",
+   "start": 30.166,
+   "end": 30.63
+  },
+  {
+   "word": "something",
+   "start": 30.63,
+   "end": 31.093
+  },
+  {
+   "word": "fascinating",
+   "start": 31.093,
+   "end": 31.865
+  },
+  {
+   "word": "about",
+   "start": 31.865,
+   "end": 32.251
+  },
+  {
+   "word": "the",
+   "start": 32.251,
+   "end": 32.405
+  },
+  {
+   "word": "way",
+   "start": 32.405,
+   "end": 32.637
+  },
+  {
+   "word": "the",
+   "start": 32.637,
+   "end": 32.791
+  },
+  {
+   "word": "human",
+   "start": 32.791,
+   "end": 33.254
+  },
+  {
+   "word": "brain,",
+   "start": 33.254,
+   "end": 33.64
+  },
+  {
+   "word": "the",
+   "start": 34.07,
+   "end": 34.204
+  },
+  {
+   "word": "internet,",
+   "start": 34.204,
+   "end": 34.67
+  },
+  {
+   "word": "and",
+   "start": 35.06,
+   "end": 35.27
+  },
+  {
+   "word": "modern",
+   "start": 35.27,
+   "end": 35.62
+  },
+  {
+   "word": "entertainment",
+   "start": 35.62,
+   "end": 36.46
+  },
+  {
+   "word": "work.",
+   "start": 36.46,
+   "end": 36.67
+  },
+  {
+   "word": "The",
+   "start": 38.78,
+   "end": 38.947
+  },
+  {
+   "word": "story",
+   "start": 38.947,
+   "end": 39.365
+  },
+  {
+   "word": "began",
+   "start": 39.365,
+   "end": 39.783
+  },
+  {
+   "word": "in",
+   "start": 39.783,
+   "end": 39.95
+  },
+  {
+   "word": "June",
+   "start": 39.95,
+   "end": 40.284
+  },
+  {
+   "word": "twenty",
+   "start": 40.284,
+   "end": 40.785
+  },
+  {
+   "word": "sixteen,",
+   "start": 40.785,
+   "end": 41.37
+  },
+  {
+   "word": "when",
+   "start": 41.49,
+   "end": 41.775
+  },
+  {
+   "word": "Pinkfong,",
+   "start": 41.775,
+   "end": 42.44
+  },
+  {
+   "word": "a",
+   "start": 42.87,
+   "end": 43.12
+  },
+  {
+   "word": "South",
+   "start": 43.12,
+   "end": 43.62
+  },
+  {
+   "word": "Korean",
+   "start": 43.62,
+   "end": 44.37
+  },
+  {
+   "word": "children's",
+   "start": 44.37,
+   "end": 45.495
+  },
+  {
+   "word": "brand,",
+   "start": 45.495,
+   "end": 46.12
+  },
+  {
+   "word": "released",
+   "start": 46.23,
+   "end": 46.507
+  },
+  {
+   "word": "Baby",
+   "start": 46.507,
+   "end": 46.738
+  },
+  {
+   "word": "Shark",
+   "start": 46.738,
+   "end": 46.922
+  },
+  {
+   "word": "Dance",
+   "start": 46.922,
+   "end": 47.107
+  },
+  {
+   "word": "on",
+   "start": 47.107,
+   "end": 47.199
+  },
+  {
+   "word": "YouTube.",
+   "start": 47.199,
+   "end": 47.43
+  },
+  {
+   "word": "The",
+   "start": 48.34,
+   "end": 48.543
+  },
+  {
+   "word": "song",
+   "start": 48.543,
+   "end": 48.848
+  },
+  {
+   "word": "itself",
+   "start": 48.848,
+   "end": 49.458
+  },
+  {
+   "word": "was",
+   "start": 49.458,
+   "end": 49.762
+  },
+  {
+   "word": "not",
+   "start": 49.762,
+   "end": 50.067
+  },
+  {
+   "word": "new.",
+   "start": 50.067,
+   "end": 50.27
+  },
+  {
+   "word": "It",
+   "start": 50.8,
+   "end": 50.937
+  },
+  {
+   "word": "was",
+   "start": 50.937,
+   "end": 51.142
+  },
+  {
+   "word": "an",
+   "start": 51.142,
+   "end": 51.279
+  },
+  {
+   "word": "old",
+   "start": 51.279,
+   "end": 51.552
+  },
+  {
+   "word": "campfire",
+   "start": 51.552,
+   "end": 52.099
+  },
+  {
+   "word": "chant,",
+   "start": 52.099,
+   "end": 52.44
+  },
+  {
+   "word": "sung",
+   "start": 52.74,
+   "end": 53.001
+  },
+  {
+   "word": "by",
+   "start": 53.001,
+   "end": 53.262
+  },
+  {
+   "word": "kids",
+   "start": 53.262,
+   "end": 53.61
+  },
+  {
+   "word": "for",
+   "start": 53.61,
+   "end": 53.871
+  },
+  {
+   "word": "decades.",
+   "start": 53.871,
+   "end": 54.48
+  },
+  {
+   "word": "You",
+   "start": 55.39,
+   "end": 55.565
+  },
+  {
+   "word": "see,",
+   "start": 55.565,
+   "end": 55.739
+  },
+  {
+   "word": "the",
+   "start": 55.739,
+   "end": 55.913
+  },
+  {
+   "word": "concept",
+   "start": 55.913,
+   "end": 56.524
+  },
+  {
+   "word": "was",
+   "start": 56.524,
+   "end": 56.785
+  },
+  {
+   "word": "incredibly",
+   "start": 56.785,
+   "end": 57.657
+  },
+  {
+   "word": "simple.",
+   "start": 57.657,
+   "end": 58.18
+  },
+  {
+   "word": "A",
+   "start": 58.71,
+   "end": 58.88
+  },
+  {
+   "word": "catchy",
+   "start": 58.88,
+   "end": 59.303
+  },
+  {
+   "word": "melody,",
+   "start": 59.303,
+   "end": 59.81
+  },
+  {
+   "word": "colorful",
+   "start": 60.11,
+   "end": 60.675
+  },
+  {
+   "word": "animation,",
+   "start": 60.675,
+   "end": 61.4
+  },
+  {
+   "word": "easy",
+   "start": 61.8,
+   "end": 62.087
+  },
+  {
+   "word": "movements,",
+   "start": 62.087,
+   "end": 62.85
+  },
+  {
+   "word": "and",
+   "start": 62.97,
+   "end": 63.182
+  },
+  {
+   "word": "repetitive",
+   "start": 63.182,
+   "end": 63.816
+  },
+  {
+   "word": "lyrics",
+   "start": 63.816,
+   "end": 64.238
+  },
+  {
+   "word": "that",
+   "start": 64.238,
+   "end": 64.449
+  },
+  {
+   "word": "children",
+   "start": 64.449,
+   "end": 65.013
+  },
+  {
+   "word": "could",
+   "start": 65.013,
+   "end": 65.224
+  },
+  {
+   "word": "quickly",
+   "start": 65.224,
+   "end": 65.647
+  },
+  {
+   "word": "memorize.",
+   "start": 65.647,
+   "end": 66.21
+  },
+  {
+   "word": "There",
+   "start": 67.12,
+   "end": 67.358
+  },
+  {
+   "word": "was",
+   "start": 67.358,
+   "end": 67.596
+  },
+  {
+   "word": "no",
+   "start": 67.596,
+   "end": 67.834
+  },
+  {
+   "word": "complicated",
+   "start": 67.834,
+   "end": 68.786
+  },
+  {
+   "word": "storyline.",
+   "start": 68.786,
+   "end": 69.5
+  },
+  {
+   "word": "No",
+   "start": 70.03,
+   "end": 70.278
+  },
+  {
+   "word": "expensive",
+   "start": 70.278,
+   "end": 71.022
+  },
+  {
+   "word": "cinematic",
+   "start": 71.022,
+   "end": 71.765
+  },
+  {
+   "word": "effects.",
+   "start": 71.765,
+   "end": 72.26
+  },
+  {
+   "word": "Yet",
+   "start": 73.17,
+   "end": 73.392
+  },
+  {
+   "word": "something",
+   "start": 73.392,
+   "end": 73.836
+  },
+  {
+   "word": "extraordinary",
+   "start": 73.836,
+   "end": 74.797
+  },
+  {
+   "word": "happened.",
+   "start": 74.797,
+   "end": 75.24
+  },
+  {
+   "word": "Children",
+   "start": 76.151,
+   "end": 76.786
+  },
+  {
+   "word": "started",
+   "start": 76.786,
+   "end": 77.342
+  },
+  {
+   "word": "watching",
+   "start": 77.342,
+   "end": 77.818
+  },
+  {
+   "word": "it",
+   "start": 77.818,
+   "end": 77.977
+  },
+  {
+   "word": "again",
+   "start": 77.977,
+   "end": 78.295
+  },
+  {
+   "word": "and",
+   "start": 78.295,
+   "end": 78.533
+  },
+  {
+   "word": "again.",
+   "start": 78.533,
+   "end": 78.851
+  },
+  {
+   "word": "Parents",
+   "start": 79.761,
+   "end": 80.233
+  },
+  {
+   "word": "played",
+   "start": 80.233,
+   "end": 80.571
+  },
+  {
+   "word": "it",
+   "start": 80.571,
+   "end": 80.706
+  },
+  {
+   "word": "for",
+   "start": 80.706,
+   "end": 80.908
+  },
+  {
+   "word": "their",
+   "start": 80.908,
+   "end": 81.111
+  },
+  {
+   "word": "children.",
+   "start": 81.111,
+   "end": 81.651
+  },
+  {
+   "word": "Schools",
+   "start": 82.181,
+   "end": 82.59
+  },
+  {
+   "word": "and",
+   "start": 82.59,
+   "end": 82.836
+  },
+  {
+   "word": "families",
+   "start": 82.836,
+   "end": 83.409
+  },
+  {
+   "word": "shared",
+   "start": 83.409,
+   "end": 83.737
+  },
+  {
+   "word": "it.",
+   "start": 83.737,
+   "end": 83.901
+  },
+  {
+   "word": "The",
+   "start": 84.431,
+   "end": 84.602
+  },
+  {
+   "word": "song",
+   "start": 84.602,
+   "end": 84.859
+  },
+  {
+   "word": "spread",
+   "start": 84.859,
+   "end": 85.288
+  },
+  {
+   "word": "across",
+   "start": 85.288,
+   "end": 85.716
+  },
+  {
+   "word": "countries,",
+   "start": 85.716,
+   "end": 86.316
+  },
+  {
+   "word": "languages,",
+   "start": 86.316,
+   "end": 87.173
+  },
+  {
+   "word": "and",
+   "start": 87.173,
+   "end": 87.431
+  },
+  {
+   "word": "cultures.",
+   "start": 87.431,
+   "end": 88.031
+  },
+  {
+   "word": "In",
+   "start": 88.561,
+   "end": 88.714
+  },
+  {
+   "word": "twenty",
+   "start": 88.714,
+   "end": 89.174
+  },
+  {
+   "word": "nineteen,",
+   "start": 89.174,
+   "end": 89.711
+  },
+  {
+   "word": "it",
+   "start": 89.941,
+   "end": 90.092
+  },
+  {
+   "word": "even",
+   "start": 90.092,
+   "end": 90.395
+  },
+  {
+   "word": "climbed",
+   "start": 90.395,
+   "end": 90.85
+  },
+  {
+   "word": "onto",
+   "start": 90.85,
+   "end": 91.153
+  },
+  {
+   "word": "the",
+   "start": 91.153,
+   "end": 91.305
+  },
+  {
+   "word": "Billboard",
+   "start": 91.305,
+   "end": 91.835
+  },
+  {
+   "word": "Hot",
+   "start": 91.835,
+   "end": 92.063
+  },
+  {
+   "word": "one",
+   "start": 92.063,
+   "end": 92.29
+  },
+  {
+   "word": "hundred,",
+   "start": 92.29,
+   "end": 92.821
+  },
+  {
+   "word": "and",
+   "start": 93.231,
+   "end": 93.456
+  },
+  {
+   "word": "stayed",
+   "start": 93.456,
+   "end": 93.831
+  },
+  {
+   "word": "there",
+   "start": 93.831,
+   "end": 94.056
+  },
+  {
+   "word": "for",
+   "start": 94.056,
+   "end": 94.281
+  },
+  {
+   "word": "twenty",
+   "start": 94.281,
+   "end": 94.731
+  },
+  {
+   "word": "weeks.",
+   "start": 94.731,
+   "end": 95.031
+  },
+  {
+   "word": "What",
+   "start": 95.941,
+   "end": 96.164
+  },
+  {
+   "word": "seemed",
+   "start": 96.164,
+   "end": 96.462
+  },
+  {
+   "word": "like",
+   "start": 96.462,
+   "end": 96.76
+  },
+  {
+   "word": "a",
+   "start": 96.76,
+   "end": 96.909
+  },
+  {
+   "word": "simple",
+   "start": 96.909,
+   "end": 97.356
+  },
+  {
+   "word": "children's",
+   "start": 97.356,
+   "end": 98.027
+  },
+  {
+   "word": "video",
+   "start": 98.027,
+   "end": 98.474
+  },
+  {
+   "word": "was",
+   "start": 98.474,
+   "end": 98.698
+  },
+  {
+   "word": "becoming",
+   "start": 98.698,
+   "end": 99.219
+  },
+  {
+   "word": "a",
+   "start": 99.219,
+   "end": 99.368
+  },
+  {
+   "word": "global",
+   "start": 99.368,
+   "end": 99.89
+  },
+  {
+   "word": "phenomenon.",
+   "start": 99.89,
+   "end": 100.561
+  },
+  {
+   "word": "But",
+   "start": 102.671,
+   "end": 102.901
+  },
+  {
+   "word": "why",
+   "start": 102.901,
+   "end": 103.132
+  },
+  {
+   "word": "did",
+   "start": 103.132,
+   "end": 103.362
+  },
+  {
+   "word": "this",
+   "start": 103.362,
+   "end": 103.592
+  },
+  {
+   "word": "particular",
+   "start": 103.592,
+   "end": 104.284
+  },
+  {
+   "word": "video",
+   "start": 104.284,
+   "end": 104.745
+  },
+  {
+   "word": "become",
+   "start": 104.745,
+   "end": 105.129
+  },
+  {
+   "word": "so",
+   "start": 105.129,
+   "end": 105.359
+  },
+  {
+   "word": "successful?",
+   "start": 105.359,
+   "end": 106.051
+  },
+  {
+   "word": "The",
+   "start": 106.961,
+   "end": 107.147
+  },
+  {
+   "word": "answer",
+   "start": 107.147,
+   "end": 107.519
+  },
+  {
+   "word": "may",
+   "start": 107.519,
+   "end": 107.798
+  },
+  {
+   "word": "lie",
+   "start": 107.798,
+   "end": 108.077
+  },
+  {
+   "word": "in",
+   "start": 108.077,
+   "end": 108.263
+  },
+  {
+   "word": "repetition.",
+   "start": 108.263,
+   "end": 109.101
+  },
+  {
+   "word": "The",
+   "start": 110.011,
+   "end": 110.197
+  },
+  {
+   "word": "melody",
+   "start": 110.197,
+   "end": 110.756
+  },
+  {
+   "word": "is",
+   "start": 110.756,
+   "end": 110.942
+  },
+  {
+   "word": "easy",
+   "start": 110.942,
+   "end": 111.222
+  },
+  {
+   "word": "to",
+   "start": 111.222,
+   "end": 111.408
+  },
+  {
+   "word": "remember.",
+   "start": 111.408,
+   "end": 112.061
+  },
+  {
+   "word": "The",
+   "start": 112.591,
+   "end": 112.774
+  },
+  {
+   "word": "movements",
+   "start": 112.774,
+   "end": 113.507
+  },
+  {
+   "word": "are",
+   "start": 113.507,
+   "end": 113.691
+  },
+  {
+   "word": "easy",
+   "start": 113.691,
+   "end": 113.966
+  },
+  {
+   "word": "to",
+   "start": 113.966,
+   "end": 114.149
+  },
+  {
+   "word": "imitate.",
+   "start": 114.149,
+   "end": 114.791
+  },
+  {
+   "word": "The",
+   "start": 115.321,
+   "end": 115.482
+  },
+  {
+   "word": "characters",
+   "start": 115.482,
+   "end": 116.125
+  },
+  {
+   "word": "are",
+   "start": 116.125,
+   "end": 116.286
+  },
+  {
+   "word": "colorful",
+   "start": 116.286,
+   "end": 116.849
+  },
+  {
+   "word": "and",
+   "start": 116.849,
+   "end": 117.091
+  },
+  {
+   "word": "instantly",
+   "start": 117.091,
+   "end": 117.815
+  },
+  {
+   "word": "recognizable.",
+   "start": 117.815,
+   "end": 118.861
+  },
+  {
+   "word": "A",
+   "start": 119.771,
+   "end": 119.927
+  },
+  {
+   "word": "child",
+   "start": 119.927,
+   "end": 120.395
+  },
+  {
+   "word": "doesn't",
+   "start": 120.395,
+   "end": 120.863
+  },
+  {
+   "word": "need",
+   "start": 120.863,
+   "end": 121.097
+  },
+  {
+   "word": "to",
+   "start": 121.097,
+   "end": 121.253
+  },
+  {
+   "word": "understand",
+   "start": 121.253,
+   "end": 121.956
+  },
+  {
+   "word": "another",
+   "start": 121.956,
+   "end": 122.346
+  },
+  {
+   "word": "language",
+   "start": 122.346,
+   "end": 122.97
+  },
+  {
+   "word": "to",
+   "start": 122.97,
+   "end": 123.126
+  },
+  {
+   "word": "enjoy",
+   "start": 123.126,
+   "end": 123.595
+  },
+  {
+   "word": "the",
+   "start": 123.595,
+   "end": 123.751
+  },
+  {
+   "word": "rhythm.",
+   "start": 123.751,
+   "end": 124.141
+  },
+  {
+   "word": "And",
+   "start": 125.051,
+   "end": 125.268
+  },
+  {
+   "word": "unlike",
+   "start": 125.268,
+   "end": 125.703
+  },
+  {
+   "word": "many",
+   "start": 125.703,
+   "end": 125.993
+  },
+  {
+   "word": "videos",
+   "start": 125.993,
+   "end": 126.501
+  },
+  {
+   "word": "that",
+   "start": 126.501,
+   "end": 126.718
+  },
+  {
+   "word": "people",
+   "start": 126.718,
+   "end": 127.081
+  },
+  {
+   "word": "watch",
+   "start": 127.081,
+   "end": 127.371
+  },
+  {
+   "word": "once",
+   "start": 127.371,
+   "end": 127.661
+  },
+  {
+   "word": "and",
+   "start": 127.661,
+   "end": 127.878
+  },
+  {
+   "word": "forget,",
+   "start": 127.878,
+   "end": 128.241
+  },
+  {
+   "word": "Baby",
+   "start": 128.761,
+   "end": 129.193
+  },
+  {
+   "word": "Shark",
+   "start": 129.193,
+   "end": 129.539
+  },
+  {
+   "word": "encourages",
+   "start": 129.539,
+   "end": 130.403
+  },
+  {
+   "word": "repeated",
+   "start": 130.403,
+   "end": 131.009
+  },
+  {
+   "word": "viewing.",
+   "start": 131.009,
+   "end": 131.441
+  },
+  {
+   "word": "One",
+   "start": 132.351,
+   "end": 132.606
+  },
+  {
+   "word": "child",
+   "start": 132.606,
+   "end": 133.117
+  },
+  {
+   "word": "might",
+   "start": 133.117,
+   "end": 133.458
+  },
+  {
+   "word": "watch",
+   "start": 133.458,
+   "end": 133.798
+  },
+  {
+   "word": "it",
+   "start": 133.798,
+   "end": 133.969
+  },
+  {
+   "word": "five",
+   "start": 133.969,
+   "end": 134.309
+  },
+  {
+   "word": "times",
+   "start": 134.309,
+   "end": 134.735
+  },
+  {
+   "word": "in",
+   "start": 134.735,
+   "end": 134.905
+  },
+  {
+   "word": "a",
+   "start": 134.905,
+   "end": 135.075
+  },
+  {
+   "word": "day.",
+   "start": 135.075,
+   "end": 135.331
+  },
+  {
+   "word": "Millions",
+   "start": 136.241,
+   "end": 136.815
+  },
+  {
+   "word": "of",
+   "start": 136.815,
+   "end": 136.979
+  },
+  {
+   "word": "children",
+   "start": 136.979,
+   "end": 137.635
+  },
+  {
+   "word": "doing",
+   "start": 137.635,
+   "end": 137.963
+  },
+  {
+   "word": "the",
+   "start": 137.963,
+   "end": 138.127
+  },
+  {
+   "word": "same",
+   "start": 138.127,
+   "end": 138.455
+  },
+  {
+   "word": "thing",
+   "start": 138.455,
+   "end": 138.701
+  },
+  {
+   "word": "can",
+   "start": 138.701,
+   "end": 138.947
+  },
+  {
+   "word": "create",
+   "start": 138.947,
+   "end": 139.439
+  },
+  {
+   "word": "an",
+   "start": 139.439,
+   "end": 139.603
+  },
+  {
+   "word": "extraordinary",
+   "start": 139.603,
+   "end": 140.669
+  },
+  {
+   "word": "number",
+   "start": 140.669,
+   "end": 141.079
+  },
+  {
+   "word": "of",
+   "start": 141.079,
+   "end": 141.243
+  },
+  {
+   "word": "views.",
+   "start": 141.243,
+   "end": 141.571
+  },
+  {
+   "word": "The",
+   "start": 142.481,
+   "end": 142.642
+  },
+  {
+   "word": "internet",
+   "start": 142.642,
+   "end": 143.208
+  },
+  {
+   "word": "had",
+   "start": 143.208,
+   "end": 143.45
+  },
+  {
+   "word": "found",
+   "start": 143.45,
+   "end": 143.854
+  },
+  {
+   "word": "something",
+   "start": 143.854,
+   "end": 144.338
+  },
+  {
+   "word": "incredibly",
+   "start": 144.338,
+   "end": 145.146
+  },
+  {
+   "word": "powerful:",
+   "start": 145.146,
+   "end": 145.711
+  },
+  {
+   "word": "content",
+   "start": 146.241,
+   "end": 146.787
+  },
+  {
+   "word": "that",
+   "start": 146.787,
+   "end": 147.02
+  },
+  {
+   "word": "people",
+   "start": 147.02,
+   "end": 147.41
+  },
+  {
+   "word": "wanted",
+   "start": 147.41,
+   "end": 147.878
+  },
+  {
+   "word": "to",
+   "start": 147.878,
+   "end": 148.034
+  },
+  {
+   "word": "experience",
+   "start": 148.034,
+   "end": 148.891
+  },
+  {
+   "word": "over",
+   "start": 148.891,
+   "end": 149.203
+  },
+  {
+   "word": "and",
+   "start": 149.203,
+   "end": 149.437
+  },
+  {
+   "word": "over",
+   "start": 149.437,
+   "end": 149.749
+  },
+  {
+   "word": "again.",
+   "start": 149.749,
+   "end": 150.061
+  },
+  {
+   "word": "In",
+   "start": 152.171,
+   "end": 152.305
+  },
+  {
+   "word": "November",
+   "start": 152.305,
+   "end": 152.839
+  },
+  {
+   "word": "twenty",
+   "start": 152.839,
+   "end": 153.24
+  },
+  {
+   "word": "twenty,",
+   "start": 153.24,
+   "end": 153.641
+  },
+  {
+   "word": "Baby",
+   "start": 154.091,
+   "end": 154.517
+  },
+  {
+   "word": "Shark",
+   "start": 154.517,
+   "end": 154.858
+  },
+  {
+   "word": "overtook",
+   "start": 154.858,
+   "end": 155.454
+  },
+  {
+   "word": "Despacito",
+   "start": 155.454,
+   "end": 156.306
+  },
+  {
+   "word": "to",
+   "start": 156.306,
+   "end": 156.476
+  },
+  {
+   "word": "become",
+   "start": 156.476,
+   "end": 156.902
+  },
+  {
+   "word": "YouTube's",
+   "start": 156.902,
+   "end": 157.413
+  },
+  {
+   "word": "most-viewed",
+   "start": 157.413,
+   "end": 158.18
+  },
+  {
+   "word": "video.",
+   "start": 158.18,
+   "end": 158.691
+  },
+  {
+   "word": "Then",
+   "start": 159.601,
+   "end": 159.832
+  },
+  {
+   "word": "it",
+   "start": 159.832,
+   "end": 159.986
+  },
+  {
+   "word": "crossed",
+   "start": 159.986,
+   "end": 160.371
+  },
+  {
+   "word": "another",
+   "start": 160.371,
+   "end": 160.756
+  },
+  {
+   "word": "extraordinary",
+   "start": 160.756,
+   "end": 161.758
+  },
+  {
+   "word": "milestone.",
+   "start": 161.758,
+   "end": 162.451
+  },
+  {
+   "word": "Ten",
+   "start": 163.361,
+   "end": 163.7
+  },
+  {
+   "word": "billion",
+   "start": 163.7,
+   "end": 164.379
+  },
+  {
+   "word": "views.",
+   "start": 164.379,
+   "end": 164.831
+  },
+  {
+   "word": "The",
+   "start": 165.361,
+   "end": 165.527
+  },
+  {
+   "word": "first",
+   "start": 165.527,
+   "end": 165.86
+  },
+  {
+   "word": "video",
+   "start": 165.86,
+   "end": 166.358
+  },
+  {
+   "word": "in",
+   "start": 166.358,
+   "end": 166.524
+  },
+  {
+   "word": "history",
+   "start": 166.524,
+   "end": 167.106
+  },
+  {
+   "word": "to",
+   "start": 167.106,
+   "end": 167.272
+  },
+  {
+   "word": "get",
+   "start": 167.272,
+   "end": 167.522
+  },
+  {
+   "word": "there.",
+   "start": 167.522,
+   "end": 167.771
+  },
+  {
+   "word": "And",
+   "start": 168.681,
+   "end": 168.962
+  },
+  {
+   "word": "it",
+   "start": 168.962,
+   "end": 169.149
+  },
+  {
+   "word": "didn't",
+   "start": 169.149,
+   "end": 169.617
+  },
+  {
+   "word": "stop.",
+   "start": 169.617,
+   "end": 169.991
+  },
+  {
+   "word": "By",
+   "start": 170.901,
+   "end": 171.087
+  },
+  {
+   "word": "twenty",
+   "start": 171.087,
+   "end": 171.46
+  },
+  {
+   "word": "twenty-six,",
+   "start": 171.46,
+   "end": 172.081
+  },
+  {
+   "word": "the",
+   "start": 172.371,
+   "end": 172.541
+  },
+  {
+   "word": "counter",
+   "start": 172.541,
+   "end": 173.052
+  },
+  {
+   "word": "had",
+   "start": 173.052,
+   "end": 173.308
+  },
+  {
+   "word": "passed",
+   "start": 173.308,
+   "end": 173.648
+  },
+  {
+   "word": "seventeen",
+   "start": 173.648,
+   "end": 174.329
+  },
+  {
+   "word": "billion",
+   "start": 174.329,
+   "end": 174.84
+  },
+  {
+   "word": "views.",
+   "start": 174.84,
+   "end": 175.181
+  },
+  {
+   "word": "That",
+   "start": 176.091,
+   "end": 176.334
+  },
+  {
+   "word": "number",
+   "start": 176.334,
+   "end": 176.739
+  },
+  {
+   "word": "is",
+   "start": 176.739,
+   "end": 176.901
+  },
+  {
+   "word": "difficult",
+   "start": 176.901,
+   "end": 177.55
+  },
+  {
+   "word": "to",
+   "start": 177.55,
+   "end": 177.712
+  },
+  {
+   "word": "understand.",
+   "start": 177.712,
+   "end": 178.441
+  },
+  {
+   "word": "It",
+   "start": 179.351,
+   "end": 179.523
+  },
+  {
+   "word": "is",
+   "start": 179.523,
+   "end": 179.694
+  },
+  {
+   "word": "more",
+   "start": 179.694,
+   "end": 179.951
+  },
+  {
+   "word": "than",
+   "start": 179.951,
+   "end": 180.208
+  },
+  {
+   "word": "twice",
+   "start": 180.208,
+   "end": 180.637
+  },
+  {
+   "word": "the",
+   "start": 180.637,
+   "end": 180.808
+  },
+  {
+   "word": "population",
+   "start": 180.808,
+   "end": 181.751
+  },
+  {
+   "word": "of",
+   "start": 181.751,
+   "end": 181.923
+  },
+  {
+   "word": "the",
+   "start": 181.923,
+   "end": 182.094
+  },
+  {
+   "word": "entire",
+   "start": 182.094,
+   "end": 182.608
+  },
+  {
+   "word": "world.",
+   "start": 182.608,
+   "end": 182.951
+  },
+  {
+   "word": "Of",
+   "start": 183.861,
+   "end": 184.039
+  },
+  {
+   "word": "course,",
+   "start": 184.039,
+   "end": 184.395
+  },
+  {
+   "word": "many",
+   "start": 184.395,
+   "end": 184.751
+  },
+  {
+   "word": "people",
+   "start": 184.751,
+   "end": 185.197
+  },
+  {
+   "word": "watched",
+   "start": 185.197,
+   "end": 185.642
+  },
+  {
+   "word": "it",
+   "start": 185.642,
+   "end": 185.82
+  },
+  {
+   "word": "repeatedly.",
+   "start": 185.82,
+   "end": 186.621
+  },
+  {
+   "word": "And",
+   "start": 187.151,
+   "end": 187.382
+  },
+  {
+   "word": "that's",
+   "start": 187.382,
+   "end": 187.689
+  },
+  {
+   "word": "precisely",
+   "start": 187.689,
+   "end": 188.38
+  },
+  {
+   "word": "what",
+   "start": 188.38,
+   "end": 188.61
+  },
+  {
+   "word": "makes",
+   "start": 188.61,
+   "end": 188.995
+  },
+  {
+   "word": "this",
+   "start": 188.995,
+   "end": 189.225
+  },
+  {
+   "word": "achievement",
+   "start": 189.225,
+   "end": 189.916
+  },
+  {
+   "word": "so",
+   "start": 189.916,
+   "end": 190.147
+  },
+  {
+   "word": "unusual.",
+   "start": 190.147,
+   "end": 190.761
+  },
+  {
+   "word": "Baby",
+   "start": 192.871,
+   "end": 193.305
+  },
+  {
+   "word": "Shark",
+   "start": 193.305,
+   "end": 193.652
+  },
+  {
+   "word": "changed",
+   "start": 193.652,
+   "end": 194.346
+  },
+  {
+   "word": "the",
+   "start": 194.346,
+   "end": 194.519
+  },
+  {
+   "word": "way",
+   "start": 194.519,
+   "end": 194.779
+  },
+  {
+   "word": "many",
+   "start": 194.779,
+   "end": 195.126
+  },
+  {
+   "word": "people",
+   "start": 195.126,
+   "end": 195.56
+  },
+  {
+   "word": "think",
+   "start": 195.56,
+   "end": 195.907
+  },
+  {
+   "word": "about",
+   "start": 195.907,
+   "end": 196.34
+  },
+  {
+   "word": "online",
+   "start": 196.34,
+   "end": 196.861
+  },
+  {
+   "word": "success.",
+   "start": 196.861,
+   "end": 197.381
+  },
+  {
+   "word": "It",
+   "start": 198.291,
+   "end": 198.436
+  },
+  {
+   "word": "demonstrated",
+   "start": 198.436,
+   "end": 199.379
+  },
+  {
+   "word": "that",
+   "start": 199.379,
+   "end": 199.596
+  },
+  {
+   "word": "the",
+   "start": 199.596,
+   "end": 199.741
+  },
+  {
+   "word": "most",
+   "start": 199.741,
+   "end": 200.104
+  },
+  {
+   "word": "successful",
+   "start": 200.104,
+   "end": 200.756
+  },
+  {
+   "word": "content",
+   "start": 200.756,
+   "end": 201.264
+  },
+  {
+   "word": "isn't",
+   "start": 201.264,
+   "end": 201.626
+  },
+  {
+   "word": "necessarily",
+   "start": 201.626,
+   "end": 202.351
+  },
+  {
+   "word": "the",
+   "start": 202.351,
+   "end": 202.496
+  },
+  {
+   "word": "most",
+   "start": 202.496,
+   "end": 202.859
+  },
+  {
+   "word": "expensive,",
+   "start": 202.859,
+   "end": 203.511
+  },
+  {
+   "word": "complicated,",
+   "start": 203.981,
+   "end": 204.821
+  },
+  {
+   "word": "or",
+   "start": 204.961,
+   "end": 205.122
+  },
+  {
+   "word": "sophisticated.",
+   "start": 205.122,
+   "end": 206.171
+  },
+  {
+   "word": "Sometimes,",
+   "start": 207.081,
+   "end": 207.783
+  },
+  {
+   "word": "simplicity",
+   "start": 207.783,
+   "end": 208.66
+  },
+  {
+   "word": "wins.",
+   "start": 208.66,
+   "end": 209.011
+  },
+  {
+   "word": "A",
+   "start": 209.921,
+   "end": 210.088
+  },
+  {
+   "word": "memorable",
+   "start": 210.088,
+   "end": 210.836
+  },
+  {
+   "word": "idea,",
+   "start": 210.836,
+   "end": 211.251
+  },
+  {
+   "word": "an",
+   "start": 211.531,
+   "end": 211.67
+  },
+  {
+   "word": "emotional",
+   "start": 211.67,
+   "end": 212.295
+  },
+  {
+   "word": "connection,",
+   "start": 212.295,
+   "end": 212.851
+  },
+  {
+   "word": "and",
+   "start": 213.351,
+   "end": 213.584
+  },
+  {
+   "word": "a",
+   "start": 213.584,
+   "end": 213.739
+  },
+  {
+   "word": "reason",
+   "start": 213.739,
+   "end": 214.127
+  },
+  {
+   "word": "to",
+   "start": 214.127,
+   "end": 214.283
+  },
+  {
+   "word": "watch",
+   "start": 214.283,
+   "end": 214.593
+  },
+  {
+   "word": "again",
+   "start": 214.593,
+   "end": 214.904
+  },
+  {
+   "word": "can",
+   "start": 214.904,
+   "end": 215.136
+  },
+  {
+   "word": "be",
+   "start": 215.136,
+   "end": 215.292
+  },
+  {
+   "word": "more",
+   "start": 215.292,
+   "end": 215.525
+  },
+  {
+   "word": "powerful",
+   "start": 215.525,
+   "end": 216.068
+  },
+  {
+   "word": "than",
+   "start": 216.068,
+   "end": 216.301
+  },
+  {
+   "word": "millions",
+   "start": 216.301,
+   "end": 216.844
+  },
+  {
+   "word": "of",
+   "start": 216.844,
+   "end": 216.999
+  },
+  {
+   "word": "dollars",
+   "start": 216.999,
+   "end": 217.387
+  },
+  {
+   "word": "in",
+   "start": 217.387,
+   "end": 217.543
+  },
+  {
+   "word": "production.",
+   "start": 217.543,
+   "end": 218.241
+  },
+  {
+   "word": "The",
+   "start": 219.151,
+   "end": 219.321
+  },
+  {
+   "word": "biggest",
+   "start": 219.321,
+   "end": 219.831
+  },
+  {
+   "word": "lesson",
+   "start": 219.831,
+   "end": 220.256
+  },
+  {
+   "word": "is",
+   "start": 220.256,
+   "end": 220.426
+  },
+  {
+   "word": "not",
+   "start": 220.426,
+   "end": 220.681
+  },
+  {
+   "word": "about",
+   "start": 220.681,
+   "end": 221.106
+  },
+  {
+   "word": "sharks.",
+   "start": 221.106,
+   "end": 221.531
+  },
+  {
+   "word": "It's",
+   "start": 222.441,
+   "end": 222.673
+  },
+  {
+   "word": "about",
+   "start": 222.673,
+   "end": 223.06
+  },
+  {
+   "word": "understanding",
+   "start": 223.06,
+   "end": 223.911
+  },
+  {
+   "word": "what",
+   "start": 223.911,
+   "end": 224.143
+  },
+  {
+   "word": "makes",
+   "start": 224.143,
+   "end": 224.53
+  },
+  {
+   "word": "people",
+   "start": 224.53,
+   "end": 224.917
+  },
+  {
+   "word": "come",
+   "start": 224.917,
+   "end": 225.149
+  },
+  {
+   "word": "back.",
+   "start": 225.149,
+   "end": 225.381
+  },
+  {
+   "word": "Because",
+   "start": 226.291,
+   "end": 226.641
+  },
+  {
+   "word": "on",
+   "start": 226.641,
+   "end": 226.781
+  },
+  {
+   "word": "the",
+   "start": 226.781,
+   "end": 226.921
+  },
+  {
+   "word": "internet,",
+   "start": 226.921,
+   "end": 227.411
+  },
+  {
+   "word": "getting",
+   "start": 227.711,
+   "end": 228.123
+  },
+  {
+   "word": "someone's",
+   "start": 228.123,
+   "end": 228.7
+  },
+  {
+   "word": "attention",
+   "start": 228.7,
+   "end": 229.277
+  },
+  {
+   "word": "once",
+   "start": 229.277,
+   "end": 229.607
+  },
+  {
+   "word": "is",
+   "start": 229.607,
+   "end": 229.772
+  },
+  {
+   "word": "difficult.",
+   "start": 229.772,
+   "end": 230.431
+  },
+  {
+   "word": "Getting",
+   "start": 231.341,
+   "end": 231.818
+  },
+  {
+   "word": "them",
+   "start": 231.818,
+   "end": 232.104
+  },
+  {
+   "word": "to",
+   "start": 232.104,
+   "end": 232.294
+  },
+  {
+   "word": "return",
+   "start": 232.294,
+   "end": 232.771
+  },
+  {
+   "word": "seventeen",
+   "start": 232.771,
+   "end": 233.533
+  },
+  {
+   "word": "billion",
+   "start": 233.533,
+   "end": 234.105
+  },
+  {
+   "word": "times",
+   "start": 234.105,
+   "end": 234.581
+  },
+  {
+   "word": "is",
+   "start": 234.581,
+   "end": 234.772
+  },
+  {
+   "word": "something",
+   "start": 234.772,
+   "end": 235.343
+  },
+  {
+   "word": "else",
+   "start": 235.343,
+   "end": 235.629
+  },
+  {
+   "word": "entirely.",
+   "start": 235.629,
+   "end": 236.391
+  }
+ ],
+ "duration": 237.471
+}

@@ -28,7 +28,12 @@ def put(buf, t, x, g=1.0):
     if i < len(buf) and j > i: buf[i:j] += x[:j - i] * g
 
 # ------------------------------------------------------------------ instruments
+_PL = {}
 def pluck(freq, dur=1.2, bright=.5):            # Karplus-Strong: an oud-like string
+    key = (round(freq, 2), dur, bright)
+    if key in _PL: return _PL[key]
+    _PL[key] = _pluck(freq, dur, bright); return _PL[key]
+def _pluck(freq, dur, bright):
     n = int(dur * SR); p = int(SR / freq)
     buf = rng.uniform(-1, 1, p) * 1.0; out = np.zeros(n)
     for i in range(n):
@@ -60,6 +65,27 @@ if MODE == 'major':
     HZ.update({'E4': 329.6, 'G4': 392.0, 'A4': 440.0, 'B3': 246.9, 'E3': 164.8})
     motif = ['D4', 'F#4', 'A4', 'F#4', 'G4', 'E4', 'D4', 'A3', 'B3', 'D4', 'E4', 'D4']
 t = 0.0; k = 0
+if MODE == 'doc':
+    # a calm documentary bed: slow pads on I-V-vi-IV in D, a soft plucked arpeggio, a gentle pulse that thins under the voice;
+    # a {type:'section'} cue starts a new phrase with a low swell
+    F = lambda m: 440 * 2 ** ((m - 69) / 12)
+    prog = [[50, 57, 62, 66], [45, 57, 61, 64], [47, 54, 59, 62], [43, 55, 59, 62]]       # D, A, Bm, G (midi)
+    bar = 4 * 60 / 72; i = 0
+    while t < DUR - .5:
+        ch = prog[i % 4]; d = min(bar, DUR - t)
+        for m in ch[1:]: put(music, t, pad(F(m), d + .6, .05))
+        put(music, t, pad(F(ch[0] - 12), d + .6, .07))
+        for b in range(8):
+            tb = t + b * bar / 8
+            if tb < DUR - .8: put(music, tb, pluck(F(ch[[1, 2, 3, 2][b % 4]] + 12), 1.4, .3), .16 if b % 2 == 0 else .1)
+        put(music, t, drum('dum'), .22)
+        t += bar; i += 1
+    for c in cues['cues']:
+        if c['type'] == 'section':
+            nb = int(3 * SR); tt = np.arange(nb) / SR
+            put(music, c['t'] - 1.0, np.sin(2 * np.pi * 73.4 * tt) * np.minimum(1, tt / 1.0) * np.exp(-np.maximum(0, tt - 1.0) / .8) * .5)
+    for f in (50, 57, 62, 66): put(music, DUR - 3.2, pluck(F(f), 3.0, .2), .3)
+    t = DUR
 while t < DUR - .5:
     sec = 'hall' if t < cut else 'kitchen' if t < t_soot else 'soot' if t < t_call else 'call'
     b = int(round(t / beat))
@@ -70,11 +96,11 @@ while t < DUR - .5:
     if b % 4 == 2 and sec != 'call': put(music, t, drum('tek'), .35)
     if sec == 'hall' and b % 4 == 3: put(music, t + beat / 2, drum('tek'), .25)
     t += beat
-put(music, 0, pad(HZ['D2'], cut + .3, .07))
-put(music, t_soot, pad(HZ['A2'] * .5, t_call - t_soot + .3, .1))
-put(music, t_call, pad(HZ['D3'], DUR - t_call, .06))
-# final resolve chord
-for f in ('D3', 'A3', 'D4', 'F#4'): put(music, DUR - 1.4, pluck(HZ[f], 1.4, .3), .3)
+if MODE != 'doc':
+    put(music, 0, pad(HZ['D2'], cut + .3, .07))
+    put(music, t_soot, pad(HZ['A2'] * .5, t_call - t_soot + .3, .1))
+    put(music, t_call, pad(HZ['D3'], DUR - t_call, .06))
+    for f in ('D3', 'A3', 'D4', 'F#4'): put(music, DUR - 1.4, pluck(HZ[f], 1.4, .3), .3)
 
 # ------------------------------------------------------------------ effects
 sfx = np.zeros(N)

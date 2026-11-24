@@ -1,0 +1,7 @@
+{
+ "engine": "kokoro",
+ "voice": "am_michael:.6,am_onyx:.4",
+ "speed": 0.9,
+ "para": 0.8,
+ "sect": 2.0
+}

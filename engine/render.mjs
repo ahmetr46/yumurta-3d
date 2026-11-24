@@ -27,7 +27,7 @@ await page.goto(`http://127.0.0.1:${port}/engine/index.html?story=${story}&captu
 await page.waitForFunction(() => window.__ready, { timeout: 120000 });
 const meta = await page.evaluate(() => window.__meta);
 fs.mkdirSync(path.join(SD, 'audio'), { recursive: true });
-fs.writeFileSync(path.join(SD, 'audio', 'cues.json'), JSON.stringify({ DUR: meta.DUR, cues: meta.CUES }, null, 1));
+fs.writeFileSync(path.join(SD, 'audio', 'cues.json'), JSON.stringify({ DUR: meta.DUR, FPS: meta.FPS, cues: meta.CUES }, null, 1));
 if (args.cues) { console.log('cues written'); await browser.close(); server.close(); process.exit(0); }
 const grab = async t => {
   const url = await page.evaluate(t => { window.render(t); return document.getElementById('out').toDataURL('image/png'); }, t);
@@ -41,10 +41,11 @@ if (args.stills) {
   for (const t of times) { const f = path.join(dir, `s_${t.toFixed(2)}.png`); fs.writeFileSync(f, await grab(t)); files.push(f); }
   const cols = Math.min(files.length, +(args.cols || 5)), rows = Math.ceil(files.length / cols);
   const inputs = files.flatMap(f => ['-i', f]);
-  const lay = files.map((_, i) => `${(i % cols) * 360}_${Math.floor(i / cols) * 640}`).join('|');
+  const tw = meta.W > meta.H ? 640 : 360, th = meta.W > meta.H ? 360 : 640;
+  const lay = files.map((_, i) => `${(i % cols) * tw}_${Math.floor(i / cols) * th}`).join('|');
   const sheet = path.join(OUT, args.name || 'stills.jpg');
-  const scaleF = files.map((_, i) => `[${i}:v]scale=360:640[v${i}]`).join(';');
-  const filt = files.length === 1 ? `[0:v]scale=360:640` : `${scaleF};${files.map((_, i) => `[v${i}]`).join('')}xstack=inputs=${files.length}:layout=${lay}:fill=black`;
+  const scaleF = files.map((_, i) => `[${i}:v]scale=${tw}:${th}[v${i}]`).join(';');
+  const filt = files.length === 1 ? `[0:v]scale=${tw}:${th}` : `${scaleF};${files.map((_, i) => `[v${i}]`).join('')}xstack=inputs=${files.length}:layout=${lay}:fill=black`;
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...inputs, '-filter_complex', filt, '-q:v', '3', sheet]);
   console.log('sheet', sheet);
 } else {

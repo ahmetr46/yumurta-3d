@@ -7,7 +7,10 @@ import { groupWords, drawCaption } from './captions.js';
 const q = new URLSearchParams(location.search);
 const STORY = q.get('story') || 'is-odasi';
 const SCALE = parseFloat(q.get('scale') || '1');
-const W = Math.round(1080 * SCALE), H = Math.round(1920 * SCALE);
+const base = `/stories/${STORY}/`;
+const story = await import(base + 'story.js');
+const SIZE = story.SIZE || [1080, 1920];                  // a story may export SIZE = [1920, 1080] for a 16:9 film
+const W = Math.round(SIZE[0] * SCALE), H = Math.round(SIZE[1] * SCALE);
 
 const glc = document.getElementById('gl'), out = document.getElementById('out');
 glc.width = W; glc.height = H; out.width = W; out.height = H;
@@ -19,8 +22,6 @@ renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadow
 renderer.shadowMap.autoUpdate = false;        // post.js refreshes the shadow maps once per frame, in the world pass
 const g = out.getContext('2d');
 
-const base = `/stories/${STORY}/`;
-const story = await import(base + 'story.js');
 const words = await (await fetch(base + (story.WORDS || 'voice/words.json'))).json();
 const env = await (await fetch(base + (story.ENV || 'voice/env.json'))).json().catch(() => []);
 const groups = groupWords(words.words);
@@ -47,7 +48,7 @@ window.render = (t) => {
     }
     g.globalAlpha = 1;
   }
-  if (!q.has('nocap') && look.captions !== false) drawCaption(g, groups, t, W, H);
+  if (!q.has('nocap') && look.captions !== false) drawCaption(g, groups, t, W, H, story.CAPTION || {});
   if (story.overlay) story.overlay(g, t, ctx);
 };
 window.__meta = { DUR: story.DUR, FPS: story.FPS || 30, NAME: story.NAME || STORY, W, H, CUES: story.CUES || [] };

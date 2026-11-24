@@ -25,8 +25,13 @@ RATE = args.get('rate', prev.get('rate', '+0%'))
 PITCH = args.get('pitch', prev.get('pitch', '+0Hz'))
 WPS = float(args.get('wps', prev.get('wps', 3.7)))
 TEMPO = args.get('tempo', prev.get('tempo', 'auto'))
+DOC = args.get('doc', prev.get('doc', '')) not in ('', '0')    # documentary pacing: one TTS take per paragraph, real pauses
+PARA = float(args.get('para', prev.get('para', .8)))          #   pause after a paragraph (blank line in script.txt), s
+SECT = float(args.get('sect', prev.get('sect', 2.0)))         #   pause after a section (a line holding only "~"), s
 
-text = open(vd / 'script.txt', encoding='utf-8').read().strip()
+src = open(vd / 'script.txt', encoding='utf-8').read().strip()
+paras = [p for p in re.split(r'\n\s*\n', src) if p.strip()]       # '~' alone = section break
+text = ' '.join(w for w in src.split() if w != '~')
 words = text.split()
 
 # --- 1. TTS with word boundaries -----------------------------------------------------------------------------------
@@ -47,12 +52,20 @@ async def tts():
             bounds.append({'w': ch['text'], 's': ch['offset'] / 1e7, 'e': (ch['offset'] + ch['duration']) / 1e7})
     return bytes(audio), bounds
 
-for attempt in range(4):
-    try:
-        audio, heard = asyncio.run(tts()); break
-    except Exception as e:
-        if attempt == 3: raise
-        print('TTS retry:', e)
+def take(txt):
+    global text
+    keep_t, text = text, txt
+    for attempt in range(4):
+        try:
+            r = asyncio.run(tts()); break
+        except Exception as e:
+            if attempt == 3: raise
+            print('TTS retry:', e)
+    text = keep_t
+    return r
+
+if DOC: import doc_voice; sys.exit(doc_voice.run(vd, paras, take, VOICE, RATE, PITCH, PARA, SECT))
+audio, heard = take(text)
 (vd / 'raw.mp3').write_bytes(audio)
 print(f'TTS {VOICE} rate {RATE}: {len(heard)} word boundaries, {heard[-1]["e"]:.2f}s')
 
