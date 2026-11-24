@@ -54,6 +54,11 @@ soot = sorted(c['t'] for c in cues['cues'] if c['type'] == 'whoosh')
 t_soot = soot[1] if len(soot) > 1 else cut + 3.6
 t_call = soot[2] if len(soot) > 2 else t_soot + 4.2
 motif = ['D4', 'Eb4', 'F#4', 'Eb4', 'D4', 'C4', 'Bb3', 'A3']
+# a story can pick another mode with a cue {type:'score', mode:'major'} (default: Hicaz, for Ottoman stories)
+MODE = next((c.get('mode') for c in cues['cues'] if c['type'] == 'score'), 'hicaz')
+if MODE == 'major':
+    HZ.update({'E4': 329.6, 'G4': 392.0, 'A4': 440.0, 'B3': 246.9, 'E3': 164.8})
+    motif = ['D4', 'F#4', 'A4', 'F#4', 'G4', 'E4', 'D4', 'A3', 'B3', 'D4', 'E4', 'D4']
 t = 0.0; k = 0
 while t < DUR - .5:
     sec = 'hall' if t < cut else 'kitchen' if t < t_soot else 'soot' if t < t_call else 'call'

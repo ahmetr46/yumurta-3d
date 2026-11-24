@@ -105,6 +105,17 @@ const PROPS = {
     g.beginPath(); g.moveTo(-5, -60); g.lineTo(5, -60); g.lineTo(3, 24); g.lineTo(0, 34); g.lineTo(-3, 24); g.closePath(); g.fill(); g.stroke(); g.restore(); },
   spoon(g, x, y, s) { g.save(); g.translate(x, y); g.rotate(.2 * s); g.strokeStyle = PLUM; g.lineWidth = 6; g.fillStyle = '#a8763e';
     g.beginPath(); g.roundRect(-5, -10, 10, 80, 5); g.fill(); g.stroke(); g.beginPath(); g.ellipse(0, 84, 16, 22, 0, 0, 6.29); g.fill(); g.stroke(); g.restore(); },
+  spyglass(g, x, y, s) { g.save(); g.translate(x, y); g.rotate(-1.15 * s); g.strokeStyle = PLUM; g.lineWidth = 6;
+    g.fillStyle = '#c9963a'; g.beginPath(); g.roundRect(-13, -96, 26, 70, 6); g.fill(); g.stroke();
+    g.fillStyle = '#e0b85a'; g.beginPath(); g.roundRect(-10, -30, 20, 56, 5); g.fill(); g.stroke();
+    g.fillStyle = '#5a3a28'; g.beginPath(); g.roundRect(-16, -104, 32, 14, 5); g.fill(); g.stroke(); g.restore(); },
+  phone(g, x, y, s) { g.save(); g.translate(x, y); g.rotate(-.15 * s); g.strokeStyle = PLUM; g.lineWidth = 6; g.fillStyle = '#3a3d52';
+    g.beginPath(); g.roundRect(-20, -62, 40, 70, 8); g.fill(); g.stroke(); g.fillStyle = '#9fd0ff'; g.beginPath(); g.roundRect(-13, -54, 26, 52, 4); g.fill(); g.restore(); },
+  sign(g, x, y, s, p) { g.save(); g.translate(x, y); g.strokeStyle = PLUM; g.lineWidth = 6;
+    g.fillStyle = '#8a5a3a'; g.beginPath(); g.roundRect(-6, -150, 12, 160, 4); g.fill(); g.stroke();
+    g.fillStyle = '#f6f0e2'; g.beginPath(); g.roundRect(-92, -250, 184, 108, 10); g.fill(); g.stroke();
+    g.fillStyle = PLUM; g.font = '900 46px "Inter Black", "Arial Black", sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.fillText(p.signText || '', 0, -196); g.restore(); },
 };
 
 // ---------- hats ----------
@@ -140,6 +151,27 @@ function hat(g, kind, w, h, look, lit) {
     g.strokeStyle = PLUM; puff(); g.stroke();
     g.fillStyle = '#f6f3ee'; g.beginPath(); g.roundRect(-w * .33, o - h * .56, w * .66, h * .24, 10); g.fill(); g.stroke();
     g.strokeStyle = '#8f86a6'; g.lineWidth = 3.6; for (const x of [-.16, 0, .16]) { g.beginPath(); g.moveTo(w * x, o - h * .52); g.lineTo(w * x, o - h * .36); g.stroke(); }
+  } else if (kind === 'top') {                         // a tall silk hat of the 1880s
+    const col = look.hatColor || '#2e2a3a', bandC = look.hatBand || '#7a2a3a';
+    const crown = () => { g.beginPath(); g.moveTo(-w * .3, -h * .44); g.lineTo(-w * .33, -h * 1.12); g.quadraticCurveTo(0, -h * 1.17, w * .33, -h * 1.12); g.lineTo(w * .3, -h * .44); g.closePath(); };
+    shaded(g, crown, { cx: 0, cy: -h * .78, w: w * .66, h: h * .7 }, shade(col, 1.5), shade(col, .9), { lit, blur: 12, push: .16, lift: .05 });
+    g.strokeStyle = PLUM; crown(); g.stroke();
+    g.fillStyle = bandC; g.beginPath(); g.moveTo(-w * .305, -h * .6); g.lineTo(w * .305, -h * .6); g.lineTo(w * .3, -h * .5); g.lineTo(-w * .3, -h * .5); g.closePath(); g.fill(); g.stroke();
+    g.fillStyle = shade(col, 1.1); g.beginPath(); g.ellipse(0, -h * .45, w * .5, h * .07, 0, 0, 6.29); g.fill(); g.stroke();
+  } else if (kind === 'captain') {                     // a peaked cap: white top, dark band, black visor, gold badge
+    const top = () => { g.beginPath(); g.ellipse(0, -h * .58, w * .5, h * .16, 0, 0, 6.29); };
+    shaded(g, top, { cx: 0, cy: -h * .58, w: w, h: h * .32 }, '#ffffff', '#d2ccdc', { lit, blur: 10, push: .12, lift: .1 });
+    g.strokeStyle = PLUM; top(); g.stroke();
+    g.fillStyle = look.hatColor || '#26305a'; g.beginPath(); g.roundRect(-w * .4, -h * .56, w * .8, h * .15, 10); g.fill(); g.stroke();
+    g.fillStyle = '#2a2236'; g.beginPath(); g.moveTo(-w * .36, -h * .42); g.quadraticCurveTo(0, -h * .3, w * .36, -h * .42); g.closePath(); g.fill(); g.stroke();
+    g.fillStyle = '#f0c040'; g.beginPath(); g.ellipse(0, -h * .49, w * .06, h * .05, 0, 0, 6.29); g.fill(); g.lineWidth = 4; g.stroke();
+  } else if (kind === 'cap') {                         // a baseball cap, visor toward the side the face turns to
+    const col = look.hatColor || '#d84a3a', vs = (look.capSide ?? 1);
+    const dome = () => { g.beginPath(); g.moveTo(-w * .44, -h * .38); g.quadraticCurveTo(-w * .42, -h * .9, 0, -h * .92); g.quadraticCurveTo(w * .42, -h * .9, w * .44, -h * .38); g.closePath(); };
+    shaded(g, dome, { cx: 0, cy: -h * .65, w: w * .88, h: h * .54 }, shade(col, 1.12), shade(col, .7), { lit, blur: 12, push: .14, lift: .12 });
+    g.strokeStyle = PLUM; dome(); g.stroke();
+    g.fillStyle = shade(col, .8); g.beginPath(); g.moveTo(vs * w * .1, -h * .42); g.quadraticCurveTo(vs * w * .5, -h * .5, vs * w * .66, -h * .38); g.quadraticCurveTo(vs * w * .4, -h * .33, vs * w * .1, -h * .36); g.closePath(); g.fill(); g.stroke();
+    g.fillStyle = '#ffffff'; g.beginPath(); g.arc(0, -h * .9, 9, 0, 6.29); g.fill(); g.lineWidth = 4; g.stroke();
   }
 }
 

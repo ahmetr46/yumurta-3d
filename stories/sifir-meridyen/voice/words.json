@@ -1,0 +1,920 @@
+{
+ "words": [
+  {
+   "word": "The",
+   "start": 0.0,
+   "end": 0.038
+  },
+  {
+   "word": "line",
+   "start": 0.049,
+   "end": 0.269
+  },
+  {
+   "word": "that",
+   "start": 0.28,
+   "end": 0.379
+  },
+  {
+   "word": "splits",
+   "start": 0.39,
+   "end": 0.742
+  },
+  {
+   "word": "the",
+   "start": 0.754,
+   "end": 0.832
+  },
+  {
+   "word": "whole",
+   "start": 0.842,
+   "end": 1.107
+  },
+  {
+   "word": "planet",
+   "start": 1.118,
+   "end": 1.459
+  },
+  {
+   "word": "in",
+   "start": 1.47,
+   "end": 1.548
+  },
+  {
+   "word": "two",
+   "start": 1.559,
+   "end": 1.812
+  },
+  {
+   "word": "is",
+   "start": 1.824,
+   "end": 1.934
+  },
+  {
+   "word": "in",
+   "start": 1.944,
+   "end": 1.999
+  },
+  {
+   "word": "the",
+   "start": 2.011,
+   "end": 2.087
+  },
+  {
+   "word": "wrong",
+   "start": 2.099,
+   "end": 2.33
+  },
+  {
+   "word": "place.",
+   "start": 2.341,
+   "end": 2.738
+  },
+  {
+   "word": "You",
+   "start": 2.866,
+   "end": 3.014
+  },
+  {
+   "word": "see,",
+   "start": 3.025,
+   "end": 3.345
+  },
+  {
+   "word": "we",
+   "start": 3.432,
+   "end": 3.51
+  },
+  {
+   "word": "slice",
+   "start": 3.521,
+   "end": 3.873
+  },
+  {
+   "word": "the",
+   "start": 3.884,
+   "end": 3.983
+  },
+  {
+   "word": "Earth",
+   "start": 3.995,
+   "end": 4.227
+  },
+  {
+   "word": "into",
+   "start": 4.237,
+   "end": 4.391
+  },
+  {
+   "word": "three",
+   "start": 4.403,
+   "end": 4.645
+  },
+  {
+   "word": "hundred",
+   "start": 4.656,
+   "end": 4.975
+  },
+  {
+   "word": "and",
+   "start": 4.987,
+   "end": 5.053
+  },
+  {
+   "word": "sixty",
+   "start": 5.064,
+   "end": 5.428
+  },
+  {
+   "word": "meridians,",
+   "start": 5.439,
+   "end": 5.99
+  },
+  {
+   "word": "but",
+   "start": 6.086,
+   "end": 6.192
+  },
+  {
+   "word": "nothing",
+   "start": 6.203,
+   "end": 6.446
+  },
+  {
+   "word": "says",
+   "start": 6.457,
+   "end": 6.699
+  },
+  {
+   "word": "zero",
+   "start": 6.711,
+   "end": 6.974
+  },
+  {
+   "word": "has",
+   "start": 6.986,
+   "end": 7.24
+  },
+  {
+   "word": "to",
+   "start": 7.25,
+   "end": 7.328
+  },
+  {
+   "word": "run",
+   "start": 7.338,
+   "end": 7.515
+  },
+  {
+   "word": "through",
+   "start": 7.525,
+   "end": 7.691
+  },
+  {
+   "word": "England.",
+   "start": 7.703,
+   "end": 8.066
+  },
+  {
+   "word": "It",
+   "start": 8.187,
+   "end": 8.312
+  },
+  {
+   "word": "could",
+   "start": 8.323,
+   "end": 8.434
+  },
+  {
+   "word": "just",
+   "start": 8.445,
+   "end": 8.644
+  },
+  {
+   "word": "as",
+   "start": 8.654,
+   "end": 8.731
+  },
+  {
+   "word": "well",
+   "start": 8.742,
+   "end": 8.951
+  },
+  {
+   "word": "run",
+   "start": 8.963,
+   "end": 9.107
+  },
+  {
+   "word": "through",
+   "start": 9.117,
+   "end": 9.271
+  },
+  {
+   "word": "Istanbul.",
+   "start": 9.282,
+   "end": 9.878
+  },
+  {
+   "word": "It's",
+   "start": 10.014,
+   "end": 10.177
+  },
+  {
+   "word": "like",
+   "start": 10.189,
+   "end": 10.309
+  },
+  {
+   "word": "the",
+   "start": 10.321,
+   "end": 10.375
+  },
+  {
+   "word": "year:",
+   "start": 10.386,
+   "end": 10.662
+  },
+  {
+   "word": "nothing",
+   "start": 10.913,
+   "end": 11.122
+  },
+  {
+   "word": "in",
+   "start": 11.134,
+   "end": 11.222
+  },
+  {
+   "word": "Earth's",
+   "start": 11.233,
+   "end": 11.53
+  },
+  {
+   "word": "orbit",
+   "start": 11.552,
+   "end": 11.795
+  },
+  {
+   "word": "marks",
+   "start": 11.806,
+   "end": 12.059
+  },
+  {
+   "word": "January",
+   "start": 12.07,
+   "end": 12.61
+  },
+  {
+   "word": "first.",
+   "start": 12.621,
+   "end": 13.074
+  },
+  {
+   "word": "We",
+   "start": 13.201,
+   "end": 13.342
+  },
+  {
+   "word": "made",
+   "start": 13.353,
+   "end": 13.518
+  },
+  {
+   "word": "it",
+   "start": 13.529,
+   "end": 13.606
+  },
+  {
+   "word": "up.",
+   "start": 13.618,
+   "end": 13.838
+  },
+  {
+   "word": "England",
+   "start": 13.961,
+   "end": 14.261
+  },
+  {
+   "word": "itself",
+   "start": 14.272,
+   "end": 14.603
+  },
+  {
+   "word": "started",
+   "start": 14.614,
+   "end": 14.934
+  },
+  {
+   "word": "its",
+   "start": 14.944,
+   "end": 15.087
+  },
+  {
+   "word": "year",
+   "start": 15.099,
+   "end": 15.209
+  },
+  {
+   "word": "on",
+   "start": 15.22,
+   "end": 15.33
+  },
+  {
+   "word": "March",
+   "start": 15.341,
+   "end": 15.617
+  },
+  {
+   "word": "twenty-fifth",
+   "start": 15.628,
+   "end": 16.091
+  },
+  {
+   "word": "for",
+   "start": 16.102,
+   "end": 16.212
+  },
+  {
+   "word": "centuries.",
+   "start": 16.223,
+   "end": 16.785
+  },
+  {
+   "word": "So",
+   "start": 16.917,
+   "end": 17.096
+  },
+  {
+   "word": "who",
+   "start": 17.106,
+   "end": 17.227
+  },
+  {
+   "word": "picked",
+   "start": 17.239,
+   "end": 17.415
+  },
+  {
+   "word": "Greenwich?",
+   "start": 17.427,
+   "end": 17.834
+  },
+  {
+   "word": "Sailors",
+   "start": 17.95,
+   "end": 18.391
+  },
+  {
+   "word": "did.",
+   "start": 18.403,
+   "end": 18.689
+  },
+  {
+   "word": "For",
+   "start": 18.816,
+   "end": 18.979
+  },
+  {
+   "word": "centuries",
+   "start": 18.991,
+   "end": 19.442
+  },
+  {
+   "word": "its",
+   "start": 19.453,
+   "end": 19.585
+  },
+  {
+   "word": "Royal",
+   "start": 19.597,
+   "end": 19.971
+  },
+  {
+   "word": "Observatory",
+   "start": 19.983,
+   "end": 20.644
+  },
+  {
+   "word": "guided",
+   "start": 20.655,
+   "end": 20.996
+  },
+  {
+   "word": "navigation,",
+   "start": 21.008,
+   "end": 21.625
+  },
+  {
+   "word": "and",
+   "start": 21.768,
+   "end": 21.844
+  },
+  {
+   "word": "most",
+   "start": 21.856,
+   "end": 22.109
+  },
+  {
+   "word": "of",
+   "start": 22.12,
+   "end": 22.175
+  },
+  {
+   "word": "the",
+   "start": 22.187,
+   "end": 22.253
+  },
+  {
+   "word": "world's",
+   "start": 22.264,
+   "end": 22.616
+  },
+  {
+   "word": "charts",
+   "start": 22.627,
+   "end": 22.958
+  },
+  {
+   "word": "counted",
+   "start": 22.97,
+   "end": 23.256
+  },
+  {
+   "word": "from",
+   "start": 23.267,
+   "end": 23.432
+  },
+  {
+   "word": "it.",
+   "start": 23.443,
+   "end": 23.543
+  },
+  {
+   "word": "In",
+   "start": 23.67,
+   "end": 23.833
+  },
+  {
+   "word": "eighteen",
+   "start": 23.855,
+   "end": 24.262
+  },
+  {
+   "word": "eighty-four,",
+   "start": 24.274,
+   "end": 24.803
+  },
+  {
+   "word": "delegates",
+   "start": 24.935,
+   "end": 25.321
+  },
+  {
+   "word": "met",
+   "start": 25.332,
+   "end": 25.486
+  },
+  {
+   "word": "in",
+   "start": 25.498,
+   "end": 25.575
+  },
+  {
+   "word": "Washington",
+   "start": 25.586,
+   "end": 26.159
+  },
+  {
+   "word": "and",
+   "start": 26.236,
+   "end": 26.313
+  },
+  {
+   "word": "voted",
+   "start": 26.324,
+   "end": 26.633
+  },
+  {
+   "word": "Greenwich",
+   "start": 26.643,
+   "end": 26.919
+  },
+  {
+   "word": "zero.",
+   "start": 26.931,
+   "end": 27.294
+  },
+  {
+   "word": "The",
+   "start": 27.437,
+   "end": 27.578
+  },
+  {
+   "word": "French",
+   "start": 27.589,
+   "end": 27.821
+  },
+  {
+   "word": "objected:",
+   "start": 27.832,
+   "end": 28.283
+  },
+  {
+   "word": "\"Zero",
+   "start": 28.516,
+   "end": 28.792
+  },
+  {
+   "word": "should",
+   "start": 28.804,
+   "end": 28.979
+  },
+  {
+   "word": "be",
+   "start": 28.991,
+   "end": 29.079
+  },
+  {
+   "word": "neutral,",
+   "start": 29.089,
+   "end": 29.465
+  },
+  {
+   "word": "not",
+   "start": 29.643,
+   "end": 29.764
+  },
+  {
+   "word": "English!\"",
+   "start": 29.775,
+   "end": 30.194
+  },
+  {
+   "word": "They",
+   "start": 30.317,
+   "end": 30.44
+  },
+  {
+   "word": "abstained,",
+   "start": 30.451,
+   "end": 30.947
+  },
+  {
+   "word": "and",
+   "start": 31.042,
+   "end": 31.141
+  },
+  {
+   "word": "kept",
+   "start": 31.152,
+   "end": 31.372
+  },
+  {
+   "word": "Paris",
+   "start": 31.383,
+   "end": 31.703
+  },
+  {
+   "word": "for",
+   "start": 31.714,
+   "end": 31.847
+  },
+  {
+   "word": "almost",
+   "start": 31.857,
+   "end": 32.188
+  },
+  {
+   "word": "thirty",
+   "start": 32.2,
+   "end": 32.442
+  },
+  {
+   "word": "years.",
+   "start": 32.453,
+   "end": 32.827
+  },
+  {
+   "word": "Today,",
+   "start": 32.966,
+   "end": 33.356
+  },
+  {
+   "word": "tourists",
+   "start": 33.457,
+   "end": 33.733
+  },
+  {
+   "word": "line",
+   "start": 33.744,
+   "end": 34.02
+  },
+  {
+   "word": "up",
+   "start": 34.03,
+   "end": 34.141
+  },
+  {
+   "word": "to",
+   "start": 34.152,
+   "end": 34.217
+  },
+  {
+   "word": "straddle",
+   "start": 34.229,
+   "end": 34.615
+  },
+  {
+   "word": "a",
+   "start": 34.626,
+   "end": 34.658
+  },
+  {
+   "word": "metal",
+   "start": 34.67,
+   "end": 35.044
+  },
+  {
+   "word": "line",
+   "start": 35.056,
+   "end": 35.276
+  },
+  {
+   "word": "in",
+   "start": 35.287,
+   "end": 35.353
+  },
+  {
+   "word": "the",
+   "start": 35.364,
+   "end": 35.43
+  },
+  {
+   "word": "courtyard.",
+   "start": 35.441,
+   "end": 35.894
+  },
+  {
+   "word": "But",
+   "start": 36.021,
+   "end": 36.16
+  },
+  {
+   "word": "that",
+   "start": 36.17,
+   "end": 36.347
+  },
+  {
+   "word": "line",
+   "start": 36.358,
+   "end": 36.589
+  },
+  {
+   "word": "was",
+   "start": 36.601,
+   "end": 36.722
+  },
+  {
+   "word": "set",
+   "start": 36.732,
+   "end": 36.942
+  },
+  {
+   "word": "by",
+   "start": 36.953,
+   "end": 37.085
+  },
+  {
+   "word": "a",
+   "start": 37.096,
+   "end": 37.162
+  },
+  {
+   "word": "telescope",
+   "start": 37.173,
+   "end": 37.724
+  },
+  {
+   "word": "aimed",
+   "start": 37.758,
+   "end": 37.934
+  },
+  {
+   "word": "with",
+   "start": 37.945,
+   "end": 38.044
+  },
+  {
+   "word": "gravity,",
+   "start": 38.055,
+   "end": 38.551
+  },
+  {
+   "word": "and",
+   "start": 38.65,
+   "end": 38.75
+  },
+  {
+   "word": "gravity",
+   "start": 38.76,
+   "end": 39.168
+  },
+  {
+   "word": "there",
+   "start": 39.179,
+   "end": 39.301
+  },
+  {
+   "word": "pulls",
+   "start": 39.311,
+   "end": 39.576
+  },
+  {
+   "word": "a",
+   "start": 39.587,
+   "end": 39.62
+  },
+  {
+   "word": "little",
+   "start": 39.632,
+   "end": 39.863
+  },
+  {
+   "word": "crooked.",
+   "start": 39.874,
+   "end": 40.205
+  },
+  {
+   "word": "Satellites",
+   "start": 40.327,
+   "end": 40.881
+  },
+  {
+   "word": "measure",
+   "start": 40.892,
+   "end": 41.233
+  },
+  {
+   "word": "from",
+   "start": 41.244,
+   "end": 41.365
+  },
+  {
+   "word": "the",
+   "start": 41.377,
+   "end": 41.443
+  },
+  {
+   "word": "center",
+   "start": 41.453,
+   "end": 41.763
+  },
+  {
+   "word": "of",
+   "start": 41.774,
+   "end": 41.84
+  },
+  {
+   "word": "the",
+   "start": 41.851,
+   "end": 41.916
+  },
+  {
+   "word": "Earth",
+   "start": 41.928,
+   "end": 42.17
+  },
+  {
+   "word": "instead.",
+   "start": 42.182,
+   "end": 42.645
+  },
+  {
+   "word": "Like",
+   "start": 42.772,
+   "end": 42.944
+  },
+  {
+   "word": "squaring",
+   "start": 42.955,
+   "end": 43.351
+  },
+  {
+   "word": "a",
+   "start": 43.363,
+   "end": 43.417
+  },
+  {
+   "word": "picture",
+   "start": 43.429,
+   "end": 43.715
+  },
+  {
+   "word": "to",
+   "start": 43.727,
+   "end": 43.848
+  },
+  {
+   "word": "a",
+   "start": 43.858,
+   "end": 43.925
+  },
+  {
+   "word": "tilted",
+   "start": 43.936,
+   "end": 44.222
+  },
+  {
+   "word": "floor.",
+   "start": 44.233,
+   "end": 44.597
+  },
+  {
+   "word": "So",
+   "start": 44.714,
+   "end": 44.887
+  },
+  {
+   "word": "the",
+   "start": 44.899,
+   "end": 44.987
+  },
+  {
+   "word": "real",
+   "start": 44.997,
+   "end": 45.229
+  },
+  {
+   "word": "zero",
+   "start": 45.241,
+   "end": 45.56
+  },
+  {
+   "word": "runs",
+   "start": 45.572,
+   "end": 45.769
+  },
+  {
+   "word": "about",
+   "start": 45.781,
+   "end": 45.967
+  },
+  {
+   "word": "a",
+   "start": 45.979,
+   "end": 46.012
+  },
+  {
+   "word": "hundred",
+   "start": 46.023,
+   "end": 46.387
+  },
+  {
+   "word": "meters",
+   "start": 46.398,
+   "end": 46.717
+  },
+  {
+   "word": "east,",
+   "start": 46.739,
+   "end": 47.049
+  },
+  {
+   "word": "through",
+   "start": 47.16,
+   "end": 47.248
+  },
+  {
+   "word": "the",
+   "start": 47.259,
+   "end": 47.325
+  },
+  {
+   "word": "park,",
+   "start": 47.337,
+   "end": 47.7
+  },
+  {
+   "word": "where",
+   "start": 47.812,
+   "end": 47.944
+  },
+  {
+   "word": "almost",
+   "start": 47.955,
+   "end": 48.308
+  },
+  {
+   "word": "nobody",
+   "start": 48.319,
+   "end": 48.65
+  },
+  {
+   "word": "stops.",
+   "start": 48.661,
+   "end": 49.146
+  }
+ ],
+ "duration": 49.459
+}
