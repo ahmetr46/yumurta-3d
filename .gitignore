@@ -1,0 +1,8 @@
+node_modules/
+stories/*/out/
+stories/*/audio/*.wav
+stories/*/voice/raw.mp3
+ref/
+*.mp4
+!ornek/*.mp4
+__pycache__/

@@ -1,0 +1,9 @@
+# Python 3.10+
+# audio/mix.py, tools/zarf.py, tools/bosluk_kes.py
+numpy
+# tools/seslendir.py (English TTS narration, free, no key)
+edge-tts
+# tools/kelime_saat.py (Whisper word times)
+torch
+transformers
+librosa
