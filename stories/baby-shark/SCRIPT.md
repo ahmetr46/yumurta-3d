@@ -70,5 +70,6 @@ Müzik: `engine/audio/mix.py` içinde yeni `doc` modu (D majör, I-V-vi-IV pad'l
 ```bash
 python3 tools/seslendir_kokoro.py stories/baby-shark
 cd engine && node render.mjs baby-shark --cues && cd .. && python3 engine/audio/mix.py stories/baby-shark
-bash tools/paralel_render.sh baby-shark 4        # 4 parça paralel, ~3 saat CPU
+bash tools/paralel_render.sh baby-shark 4 10     # 4 işçi, 10 sn parçalar, kaldığı yerden devam eder (~3 saat CPU)
+# Çıktı ~120 MB; GitHub sınırı için: ffmpeg -i ornek/baby-shark.mp4 -c:v libx264 -crf 23 -c:a copy (~65 MB)
 ```
